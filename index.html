@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио Ливинский Иван</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+<body style="background-image: url(./img/MacBook\ Pro\ 16_\ -\ 1\ \(3\).png); background-position:center; background-repeat:no-repeat; background-size:cover;"> 
+    <header class="header center">
+        <div class="header__container">
+            <a href="#" class="header__logo"></a>
+            <nav class="header__nav">
+                <a href="#about" class="header__link">Обо мне</a>
+                <a href="#projacts" class="header__link">Проекты</a>
+                <a href="#contact" class="header__link">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero center" id="about">
+        <div class="hero__container">
+            <h1 class="hero__titel">Обо мне</h1>
+            <p class="hero__text">«Начинающий веб-разработчик. Владею навыками HTML, CSS и JavaScript. Работаю с DOM-элементами и использую архитектуру БЭМ.»</p>
+        </div>
+    </section>
+
+    <section class="projact center" id="projact">
+        <div class="projact__container">
+            <h2  class="projact__titel">Мои проекты</h2>
+            <div class="projact__carts">
+                <div class="projact__cart">
+                    <h2 class="projact__titel projact__titel_mini">Интернет магазин мебели</h2>
+                    <p class="projact__text">Много страничный сайт с примерами товаров, свёрстаный по методологии БЭМ и с функцией взоимодействия фильтрации. </p>
+                    <a href="https://furadeiz.github.io/site" target="_blank" rel="noopener" class="projact__btn">Посмотреть сайт</a>
+
+                    <ul class="projact__list">Этот проект демонстрирует уверенные навыки статической верстки.
+                        <li>
+                            HTML5 и семантическая верстка: Использование тегов "article", "h3", "p" для структурирования карточек товаров.
+                        </li>
+                        <li>
+                            CSS3 и Flexbox/Grid: Создание сетки каталога (вероятно, с помощью display: grid или flex), чтобы карточки красиво располагались в несколько колонок.
+                        </li>
+                        <li>
+                            Методология БЭМ: Названия классов вроде product-card, product-card__title, product-card__price (если вы использовали БЭМ, о чем писали в профиле). Это делает код читаемым и масштабируемым.
+                        </li>
+                        <li>
+                            Стилизация текста и изображений: Настройка типографики (шрифты, размеры, отступы) и работа с изображениями товаров.
+                        </li>
+                        <li>
+                            Адаптивность: Верстка, которая корректно отображается на разных устройствах (мобильные, планшеты, десктопы).
+                        </li>
+                    </ul>
+                </div>
+                <div class="projact__cart">
+                    <h2 class="projact__titel projact__titel_mini">Сайт мини-игр</h2>
+                    <p  class="projact__text">Интерактивный сайт с шестью играми на JavaScript.</p>
+                    <a href="https://furadeiz.github.io/Coursework2/" target="_blank" rel="noopener" class="projact__btn">Посмотреть</a>
+                    
+                    <ul class="projact__list">Этот проект — отличная демонстрация навыков программирования на JavaScript.
+                        <li>
+                            JavaScript (ES6+): Написание логики для шести различных игр.
+                        </li>
+                        <li>
+                            Работа с DOM: Динамическое изменение содержимого страницы (например, вывод вопросов викторины, генерация случайных чисел, изменение текста).
+                        </li>
+                        <li>
+                            Обработка событий: Использование addEventListener для отслеживания кликов по кнопкам и ввода текста пользователем.
+                        </li>
+                        <li>
+                            Управление состоянием: Отслеживание счета в играх, текущего вопроса, попыток угадать число.
+                        </li>
+                        <li>
+                            Математические операции и работа со строками: Генерация случайных чисел (Math.random()), переворот текста (split().reverse().join()), простые арифметические вычисления.
+                        </li>
+                        <li>
+                            Создание интерактивного UI: Кнопки, поля ввода и модальные окна, которые реагируют на действия пользователя.
+                        </li>
+                    </ul>
+                </div>
+                <div class="projact__cart">
+                    <h2 class="projact__titel projact__titel_mini">Проект "Коментарии"</h2>
+                    <p class="projact__text">Страница с комментариями, демонстрирующая работу с DOM.</p>
+                    <a href="https://furadeiz.github.io/DOM/" target="_blank" rel="noopener" class="projact__btn">Посмотреть</a>
+                    
+                    <ul class="projact__list">Этот проект сфокусирован на работе с динамическим контентом.
+                        <li>
+                            Работа с DOM (Document Object Model): Это ключевой навык. Вы демонстрируете умение создавать новые элементы (document.createElement), добавлять их на страницу (appendChild), изменять их свойства и содержимое.
+                        </li>
+                        <li>
+                            Шаблонизация и рендеринг: Вероятно, вы создавали HTML-структуру для нового комментария (имя, дата, текст) и вставляли её в список.
+                        </li>
+                        <li>
+                            Обработка форм: Добавление новых комментариев, скорее всего, происходит через форму. Это навык получения данных из полей ввода и их валидации.
+                        </li>
+                        <li>
+                            Работа с датами: Форматирование и вывод текущей даты и времени для нового комментария.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer center" id="contact">
+        <div class="footer__contact">
+            <p class="footer__titel">Связь со мной </p>
+            <div class="footer__conteiner">
+                <a href="https://app.mail.ru/mail/tomyself/?source=mail-superapp&platform=web&wv-dark=1&wssa-logs-nonce=01514320-d289-4215-8de0-4127b96c9049" target="_blank" rel="noopener" class="footer__link">Моя почта для связи</a>
+                <a href="https://vk.ru/pchel_medved" target="_blank" rel="noopener" class="footer__link">Мой ВК 
+                </a>
+                <a href="https://github.com/furadeiz" target="_blank" rel="noopener" class="footer__link">GitHub</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
