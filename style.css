@@ -8,11 +8,11 @@
     --carts: #1E1E1E;
     --color-text: #E0E0E0;
     --secondary-text:#9E9E9E;
-    --accent:#64B5F6;
+    --accent:#8f8f8f;
 }
 
 body{
-    font-family: "Montserrat", "arial";
+    font-family: "Huninn";
     background: var(--fon);
     color: var(--color-text);
 }
@@ -39,8 +39,8 @@ body{
 .header__link{
     color: var(--accent);
     text-decoration: none;
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 28px;
+    font-weight: 700;
     transition: .5s;
 }
 .header__link:hover{
@@ -53,44 +53,47 @@ body{
 }
 
 .hero__container{
-    margin-top: 32px;
+    margin-top: 64px;
 }
 
 .hero__titel{
-    font-size: 32px;
-    font-weight: 400;
+    font-size: 38px;
+    font-weight: 600;
 }
 
 .hero__text{
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 22px;
     width: 800px;
 }
 
 .projact{
-    margin-top: 64px;
-    margin-bottom: 48px;
+    margin-top: 120px;
+    margin-bottom: 64px;
     margin-left: 150px;
 }
 
 .projact__carts{
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 64px;
     margin-top: 24px;
 }
 
 .projact__titel{
-    font-size: 32px;
-    font-weight: 400;
+    font-size: 38px;
+    font-weight: 600;
 }
 .projact__titel_mini{
-    font-size: 26px;
+    font-size: 28px;
+    font-weight: 400;
 }
 
 .projact__text{
-    font-size: 18px;
+    font-size: 22px;
     width: 800px;
     margin-bottom: 15px;
+    font-weight: 400;
 }
 
 .projact__list{
@@ -98,6 +101,7 @@ body{
     flex-direction: column;
     gap: 20px;
     margin-top: 20px;
+    font-weight: 600;
 }
 
 .projact__btn{
@@ -117,8 +121,8 @@ body{
 }
 
 .footer__titel{
-    font-size: 22px;
-    font-weight: 400;
+    font-size: 28px;
+    font-weight: 600;
     color: var(--color-text);
 }
 
