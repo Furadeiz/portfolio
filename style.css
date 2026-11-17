@@ -23,13 +23,11 @@ body{
 }
 
 .header{
-    background: var(--carts);
     height: 100px;
     width: auto;
     color: var(--color-text);
     display: flex;
     align-items: center;
-    background: linear-gradient(90deg, #1E1E1E, #1c1c1c);
 }
 
 .header__nav{
@@ -114,11 +112,8 @@ body{
 }
 
 .footer{
-    background: var(--carts);
     width: auto;
     height: 100px;
-    background: linear-gradient(157deg, #141414 , #1E1E1E);
-    opacity: 70%;
 }
 
 .footer__titel{
